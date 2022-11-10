@@ -23,7 +23,8 @@ const Home: NextPage = () => {
       >
         <Stack w="full" h="calc(100vh)" justify="center">
 					{ /* NavBar */ }
-
+          <NavBar />
+          
           <Spacer />
           <Center>
 						{ /* If connected, the second view, otherwise the first */ }
